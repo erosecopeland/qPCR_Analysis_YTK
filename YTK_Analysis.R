@@ -383,7 +383,7 @@ summary(feedcomp)
 
 #### Standard Curve Plot ####
 
-# Plot standard curve
+# Plot standard curve #
 
 ggplot(stdcurve, aes(x = `Given Concentration`, y = Cq)) +
   geom_point(pch = 19, size = 3, alpha = 0.5) +
